@@ -7,3 +7,8 @@ install:
 
 build_script:
   - ps: .\Build.ps1
+
+notifications:
+  - provider: Slack
+    incoming_webhook:
+      secure: 6xD2ujsiPvtwxG7+lDge0d8+J7sJQjXcNZbUe2aiz7jOl1mSPDUPsISWu7mOYV9KB81PFyawE+csJ0H8j6sixUbc3j9CLK9bU9++I9J5S0E=
